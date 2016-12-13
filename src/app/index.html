@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Qiitaの情報取得</title>
+</head>
+<body>
+  <main>
+    <button id="get_items_button" type="button" name="button">投稿一覧取得</button>
+
+    <hr>
+
+    <form id="post_item_form">
+      <table>
+        <tr>
+          <th><label for="post_title">title: </label></th><td><input id="post_title" type="text" name="title" value=""></td>
+        </tr>
+        <tr>
+          <th><label for="post_tags">tags: </label></th><td><input id="post_tags" type="text" name="tags" value=""></td>
+        </tr>
+        <tr>
+          <th><label for="post_body">body: </label></th><td><textarea id="post_body" name="body" rows="8" cols="40"></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button type="submit" name="button">投稿する</button></td>
+        </tr>
+      </table>
+    </form>
+
+    <hr>
+
+    <div class="result">result: <span></span></div>
+  </main>
+</body>
+</html>
